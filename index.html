@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f31860b341.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <marquee behaviour="alternate"> Welcome to my Portfolio</marquee>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="mylogo.jpg" alt="logo"width="55" height="18">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Raushan Raj</span><br> from Bihar</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+           <div class="row">
+                <div class="about-col-1">
+                    <img src="Picture4.jpg">
+                    </div>
+                    <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Raushan kumar, a passionate and dedicated web developer with a strong background in front-end 
+                        and back-end development. I specialize in creating elegant, responsive, and user-friendly websites that 
+                        provide a seamless user experience.I thrive on solving complex problems and turning ideas into functional
+                         and visually appealing websites.I'm proficient in a wide range of technologies and languages, including:
+                         Front-end Development: HTML5, CSS3, JavaScript (ES6+), React, Angular, Vue.js | Back-end Development: 
+                         Node.js,Express.js, Ruby on Rails, Django | Database Management: MySQL, PostgreSQL, MongoDB.I am always looking for opportunities to improve my technical skills and knowledge. I believe in learning through practical experiences and collaborate with like-minded individuals.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p> 
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming languages </span><br>Python, Java, C++</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript </li>
+                            <li><span>Databases </span><br>SQL, MongoDB</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                            <li><span>Tools and technologies</span><br> Git, Docker, AWS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>2023</span><br> NPTEL cloud computing certified with a score of 90% and ranking in the top 1% of participants. </li>
+                            <li><span>2022-23</span><br> Certicicate of Merit for Securing 2nd based on academic performance  </li>
+                            <li><span>2022</span><br> Infosys–Basics of Python course certicate  </li>
+                            <li><span>2022</span><br> Microsoft Azure–Azure Fundamental certicate</li>
+                            <li><span>2022</span><br> AWS Academy Academy Graduate  - Introduction to Cloud Semester </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>B.E Computer Science From Vinayaka Mission University <br>Grade: 9.7 |3rd year</li>
+                            <li><span>2021</span><br>Intermediate from BSEB Board Patna <br>Percentage: 87.40% |2021 </li>
+                            <li><span>2019</span><br>Matriculation from BSEB Board Patna <br>Percentage: 77% |2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services----------- -->
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>  
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>My common web design services are:
+                    Custom Web Design,
+                    Responsive Web Design,
+                    UI/UX Design,
+                    Website Redesign,
+                    Landing Page Design,
+                    Prototyping and Wireframing,
+                    Accessibility Design,
+                    Graphic Design,
+                    Branding and Identity Design.
+                </p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>My common app design services are: Mobile App UI/UX Design: 
+                    Responsive Design,
+                    Prototyping and Wireframing,
+                    Platform Expertise,
+                    App Icon Design,
+                    App Redesign
+                    UI Kits and Style Guides,
+                    Accessibility Design.       
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UXDesign</h2>
+                <p>My common UI/UX design services are:
+                    Wireframing and Prototyping,
+                    User Interface (UI) Design,
+                    User Experience (UX) Design,
+                    Usability Testing,
+                    Responsive Design,
+                    Accessibility Design,
+                    UIStyle GuidesDesign Process.
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>The app conect you to the talented people around the world.Dowenload it from playstore</p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>The app conect you to music around the world.Dowenload it from playstore</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                        <div class="work">
+                            <img src="work-3.png">
+                                <div class="layer">
+                                    <h3>Online shopping </h3>
+                                    <p>The app conect you to the online shopping market in the world.Dowenload it from playstore</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                        </div>
+            </div>
+<a href="work4.jpg" class="btn1">See more</a>
+        </div>
+    </div>
+    <!--   --------------  contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>raushanmansagar12345@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8825201911</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/raushanraj.raj.92754?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://instagram.com/stylo_raushan_the_dark__lover?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/raushan-kumar-6234312a3"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.jpg" download class="btn btn2">Download Resume</a>
+                    <a href="marksheet.pdf" class="btn">Marksheet 10&12th</a>
+                 </div>
+                    <div class="contact-right">  
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p> &#169; copyright Raushan.<i class="fa-solid fa-heart"></i> Made by me</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby3db_4XW6bKBrl8Us_pBPKcP9cJnllSh3V0ahiMgKcf9fEafrqcYz2qCC5yAT4X4po_g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const ms = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
